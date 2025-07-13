@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #0d0d26;
+  font-family: 'Arial', sans-serif;
+  color: white;
+}
+
+html {
+scroll-behavior: smooth; /* ✅ Smooth scroll effect */
+}
