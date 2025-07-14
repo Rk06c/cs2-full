@@ -32,7 +32,7 @@ const ContactComponent = () => {
     setSubmitStatus(null);
 
     try {
-      const response = await fetch('https://cs2-full-back.railway.internal/api/contact', {
+      const response = await fetch('https://cs2-full-back/api/contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
