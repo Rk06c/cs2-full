@@ -1,30 +1,34 @@
 import React from 'react';
 
 import { FaWhatsapp, FaInstagram, FaFacebookF, FaEnvelope } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
-const Header = () => {
+
+function Header() {
   return (
     <>
       <header>
         <div className="logo">CSC</div>
         <nav>
           <a href="#home">home</a>
+
+          {/* <Link to="/#home">home</Link> */}
           <a href="#course">course</a>
           <a href="#contact">contact</a>
           <a href="#about">about</a>
         </nav>
       </header>
       <div className="hero-section" id="home">
-        <div className="name">CSC</div>
+        <div className="name" >CSC</div>
         <h1>COMPUTER SOFTWARE COLLEGE</h1>
         <div className="certification">An ISO 9001:2000 Certified Institution</div>
         <div className="branch"><i>Manjakuppam Branch </i></div>
-        
+
         <div className="hero-buttons">
           <button id="course">Explore Courses</button>
           <button><a href="#contact">contact</a>Us</button>
         </div>
-        
+
         <div className="social-buttons">
           <a href="https://wa.me/YOUR_NUMBER" className="social-btn whatsapp" target="_blank" rel="noopener noreferrer">
             <FaWhatsapp />
@@ -40,7 +44,7 @@ const Header = () => {
           </a>
         </div>
       </div>
-      
+
       <style jsx>{`
         /* Header styles */
         header {
@@ -111,6 +115,7 @@ const Header = () => {
           margin-bottom: 20px;
         }
 
+       
         h1 {
           font-size: 2.5rem;
           font-family: 'mr', cursive;
@@ -232,10 +237,10 @@ const Header = () => {
           }
         }
       `}</style>
-      
+
     </>
   );
-};
+}
 
 
 
