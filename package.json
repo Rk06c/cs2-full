@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+   "homepage": "https://rk06c.github.io/cs2-full/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
