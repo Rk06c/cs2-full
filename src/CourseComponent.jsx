@@ -1469,6 +1469,13 @@ const CourseComponent = () => {
                   </ul>
                 </div>
               ))}
+
+               {course.note && (
+                <div className="elective-note">
+                  <FaInfoCircle />
+                  {course.note}
+                </div>
+              )}
             </div>
             <div className="course-footer">
               {course.title === "Diploma in MS Office (DMO)" && (
