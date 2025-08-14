@@ -19,7 +19,7 @@ function Header() {
         </nav>
       </header>
       <div className="hero-section" id="home">
-        <div className="name" >CSC</div>
+        <div className="name" >sci</div>
         <h1>COMPUTER SOFTWARE COLLEGE</h1>
         <div className="certification">An ISO 9001:2000 Certified Institution</div>
         <div className="branch"><i>Manjakuppam Branch </i></div>
